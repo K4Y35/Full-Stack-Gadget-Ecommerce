@@ -1,0 +1,25 @@
+.MenuNav {
+  height: 60px;
+  background-color: var(--lightGrey);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--sidePadding);
+}
+
+.drop-down-browse-catagories {
+  background-color: var(--secondary);
+  height: 60px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.drop-down-simple-btn {
+  background-color: var(--lightGrey);
+  height: 60px;
+  width: 100px;
+  font-weight: bold;
+  color: var(--darkGrey);
+  border: none;
+}

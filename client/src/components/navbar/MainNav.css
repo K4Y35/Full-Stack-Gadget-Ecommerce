@@ -1,0 +1,73 @@
+.MainNav {
+  height: 70px;
+  width: 100%;
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--sidePadding);
+}
+
+.MainNav-left {
+  display: flex;
+  align-items: center;
+}
+
+.MainNav-right {
+  color: white;
+}
+
+.search-input {
+  height: 50px;
+  width: 260px;
+  border-radius: 20px;
+
+}
+
+.btnNav {
+  position: relative;
+  left: -50px;
+}
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: 100px 50px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: var(--secondary);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--secondary);
+  min-width: 200px;
+  z-index: 1;
+  padding-top: 6px;
+}
+
+.dropdown-content a {
+  color: white;
+  font-family: helvetica;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+}
+
+hr.solid {
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid var(--primary);
+  border-bottom: none;
+}
+
+.show {
+  display: block;
+}

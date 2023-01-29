@@ -1,0 +1,12 @@
+.CustomerReview {
+  margin: var(--sideMargine);
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.review-btn {
+  color: white;
+  padding: 10px;
+  margin-top: 5px;
+}

@@ -1,0 +1,17 @@
+.Features {
+  height: 120px;
+  max-width: 100%;
+  background-color: var(--skyBlues);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: var(--sideMargine);
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 0px 40px;
+}
+.feature-card-main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

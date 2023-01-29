@@ -1,0 +1,17 @@
+.img-with-details {
+  display: flex;
+}
+
+.cart-card-main-daiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-card-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,23 @@
+.CardSection {
+  margin: var(--sideMargine);
+  margin-top: 50px;
+  height: 800px;
+  max-width: 100%;
+}
+
+.slick-dots li.slick-active button:before,
+.slick-dots li button:before {
+  color: white;
+  opacity: 1;
+  font-size: 4px;
+  border: 1px solid grey;
+  border-radius: 100%;
+}
+.slick-dots li.slick-active button {
+  border: none;
+  background-color: var(--secondary);
+  border-radius: 100%;
+}
+.slick-dots li.slick-active button:before {
+  color: transparent;
+}

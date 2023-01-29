@@ -1,0 +1,7 @@
+.Topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--darkGrey);
+  margin: var(--sideMargine);
+}

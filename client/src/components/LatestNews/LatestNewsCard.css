@@ -1,0 +1,19 @@
+.LatestNewsCard {
+  display: flex;
+  height: 300px;
+  width: 90%;
+  border: 1px solid var(--Grey);
+  border-radius: 20px;
+  padding: 0px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.LatestNewsCard-img-div {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.LatestNewsCard-desc-div {
+  width: 50%;
+  max-height: 100%;
+}

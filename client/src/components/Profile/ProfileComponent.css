@@ -1,0 +1,39 @@
+.ProfileComponent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: var(--sideMargine);
+  margin-top: 50px;
+}
+
+.userinfo {
+  display: flex;
+  align-items: center;
+}
+
+.profileImgDiv {
+  height: 180px;
+  width: 180px;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.profileImgDiv img {
+  max-height: 180px;
+  max-width: 180px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100%;
+  border: 1px solid green;
+}
+
+.recentOrder {
+  min-height: 200px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

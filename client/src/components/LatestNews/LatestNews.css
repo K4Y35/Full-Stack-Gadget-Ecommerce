@@ -1,0 +1,24 @@
+.LatestNews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: var(--sideMargine);
+  max-width: 100%;
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+.LatestNews-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.LatestNews-card-div {
+  margin-top: 50px;
+  height: 400px;
+  max-width: 100%;
+  position: relative;
+  left: 2%;
+}

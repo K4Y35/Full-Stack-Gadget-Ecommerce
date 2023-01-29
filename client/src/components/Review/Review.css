@@ -1,0 +1,31 @@
+.Review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.Review-card-outer {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--Grey);
+  border-radius: 20px;
+  padding: 20px;
+}
+.Review-card-inner-img-div {
+  padding: 5px;
+  border-radius: 100%;
+  border: 3px dotted orange;
+}
+.Review-card-inner-top {
+  display: flex;
+  align-items: center;
+}
+
+.card-text-div {
+  background-color: var(--skyBlues);
+  padding: 20px;
+  border-radius: 20px;
+}

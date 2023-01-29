@@ -1,0 +1,12 @@
+.CardCarousel {
+  max-width: 100%;
+  height: 200px;
+  margin: var(--sideMargine);
+}
+
+.slick-prev:before {
+  color: black;
+}
+.slick-next:before {
+  color: black;
+}

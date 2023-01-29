@@ -1,0 +1,12 @@
+.ProductHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--sidePadding);
+}
+.ProductHeader-left {
+}
+
+.ProductHeader-right {
+  display: flex;
+}
